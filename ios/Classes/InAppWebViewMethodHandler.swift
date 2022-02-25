@@ -552,6 +552,5 @@ public class InAppWebViewMethodHandler: FlutterMethodCallDelegate {
     
     deinit {
         print("InAppWebViewMethodHandler - dealloc")
-        webView = nil
     }
 }
