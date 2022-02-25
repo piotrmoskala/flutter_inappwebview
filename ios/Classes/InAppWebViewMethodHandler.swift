@@ -549,8 +549,4 @@ public class InAppWebViewMethodHandler: FlutterMethodCallDelegate {
                 break
         }
     }
-    
-    deinit {
-        print("InAppWebViewMethodHandler - dealloc")
-    }
 }

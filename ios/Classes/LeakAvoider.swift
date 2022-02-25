@@ -18,8 +18,4 @@ public class LeakAvoider: NSObject {
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
         self.delegate?.handle(call, result: result)
     }
-    
-    deinit {
-        print("LeakAvoider - dealloc")
-    }
 }
